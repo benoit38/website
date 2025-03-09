@@ -8,8 +8,8 @@
             // Get the value of "some_key" in eg "https://example.com/?some_key=some_value"
             let code = params.code;
             let state=params.state;
-            let a=params.a;
-            window.location.href = "http://"+a+":4000/redirect?code="+code+"&state="+state;
+            let ip=params.ip;
+            window.location.href = "http://"+ip+":4000/redirect?code="+code+"&state="+state;
         </script>
     </head>
 </html>
